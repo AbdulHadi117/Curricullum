@@ -15,10 +15,10 @@ cp -r assets build/
 
 # Run the game
 echo "🚀 Running the App..."
-java -cp build core.Launcher
+java -cp build Launcher
 
 # For Error Detecting
-if java -cp bin core.App; then
+if java -cp bin app.App; then
     echo "Program ran successfully."
 else
     echo "Program crashed with an error."
